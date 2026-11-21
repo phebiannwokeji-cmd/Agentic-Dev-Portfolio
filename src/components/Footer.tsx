@@ -8,7 +8,7 @@ export default function Footer() {
           {profile.email}
         </a>
       </p>
-      <p className="text-[.875rem] text-muted">{profile.location}. Set in Fira Code.</p>
+      <p className="text-[.875rem] text-muted">{profile.location}</p>
     </footer>
   );
 }
